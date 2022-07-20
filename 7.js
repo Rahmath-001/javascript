@@ -148,22 +148,132 @@
 
 
 
-var a=13,b=15
-// a++
-console.log(a--) // 13(12)
-console.log(b--)// 15(14)
-console.log(a + b-- + a-- -b--) // 12 +14(13)+12 (11) - 13(12)=25   , a=11,b=12
-console.log(a-- + b + b-- + a--) // 11(10) +12 +12(11) +10(9) =45    , a=9,b=12
-console.log(a-- - b) // 9(8) -11 = -2
-console.log(a,b) // 8,11
+// var a=13,b=15
+// // a++
+// console.log(a--) // 13(12)
+// console.log(b--)// 15(14)
+// console.log(a + b-- + a-- -b--) // 12 +14(13)+12 (11) - 13(12)=25   , a=11,b=12
+// console.log(a-- + b + b-- + a--) // 11(10) +12 +12(11) +10(9) =45    , a=9,b=12
+// console.log(a-- - b) // 9(8) -11 = -2
+// console.log(a,b) // 8,11
 
 
-var a=20,b=22
-console.log(a,b) // 20 , 22
-console.log(++a,b++,a++,b++) // 21, 23, 21(22), 23(24)  ,   a=22,b=24
-console.log(++a + b-- + ++a -b++) // (22)23 + 24(23) + 24 -23 (24) = 48   , a=24,b=24 
-console.log(a-- + b+ ++a +b-- + a--) // 24 (23) + 24 +24 +24(23) +24(23) = 120   , a=23,b=23
-console.log(a-- - b+ a++ -b--) // 23 (22) - 23 +22(23) -23(22) = -1  , a=23,b=22
-console.log(a,b) //23,22
+// var a=20,b=22
+// console.log(a,b) // 20 , 22
+// console.log(++a,b++,a++,b++) // 21, 23, 21(22), 23(24)  ,   a=22,b=24
+// console.log(++a + b-- + ++a -b++) // (22)23 + 24(23) + 24 -23 (24) = 48   , a=24,b=24 
+// console.log(a-- + b+ ++a +b-- + a--) // 24 (23) + 24 +24 +24(23) +24(23) = 120   , a=23,b=23
+// console.log(a-- - b+ a++ -b--) // 23 (22) - 23 +22(23) -23(22) = -1  , a=23,b=22
+// console.log(a,b) //23,22
+
+
+
+
+
+
+
+
+
+
+// Bitwise Operators
+// Bitwise AND - &
+// Bitwise OR - |
+// Bitwise NOT - ~
+// Bitwise XOR - ^
+
+
+
+// Bitwise AND - &
+// a  b  r
+// 0  0  0
+// 0  1  0
+// 1  0  0
+// 1  1  1
+
+// var a=7,b=5;
+// // 7 = 0111
+// // 5 = 0101
+// // -----------
+// //     0101  = 5
+
+
+
+// var a=40,b=25;
+// 40 = 
+// 25 = 
+// -----------
+//      00001 =  1
+
+// console.log(a&b)
+
+
+
+
+
+
+// Bitwise OR - |
+// a  b  r
+// 0  0  0
+// 0  1  0
+// 1  0  0
+// 1  1  1
+
+
+var a=33,b=27;
+//  33 = 
+//  27 =
+console.log(a|b)
+
+
+var a=53,b=26;
+//  53 = 
+//  26 =
+console.log(a|b)
+
+var a=73,b=45;
+//  33 = 
+//  27 =
+console.log(a|b)
+
+
+// Bitwise XOR - ^
+// a  b  r
+// 0  0  0
+// 0  1  0
+// 1  0  0
+// 1  1  1
+
+var a=37,b=2;
+//  33 = 
+//  27 =
+
+// left shift (<<)
+console.log(a<<b)
+
+
+var a=17,b=4;
+
+
+// Right Shift 
+
+var a=117, b=3
+console.log(a>>b) 
+
+
+
+
+
+
+
+
+
+// Bitwise NOT - ~
+// ~N= -(N+1)
+
+console.log(~7)
+
+
+
+
 
 
