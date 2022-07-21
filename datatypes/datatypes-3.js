@@ -56,16 +56,16 @@
 // console.log(a.slice(-3,4))    //  * * *
 
 
-var a = 'smart'
-console.log(a.indexOf('s')) 
-console.log(a.indexOf('m')) 
-console.log(a.indexOf('a')) 
-console.log(a.indexOf('r')) 
-console.log(a.indexOf('t')) 
-console.log(a[-3])
-console.log(a.indexOf(3)) 
+// var a = 'smart'
+// console.log(a.indexOf('s')) 
+// console.log(a.indexOf('m')) 
+// console.log(a.indexOf('a')) 
+// console.log(a.indexOf('r')) 
+// console.log(a.indexOf('t')) 
+// console.log(a[-3])
+// console.log(a.indexOf(3)) 
 
-console.log(a.indexOf(m)) 
+// console.log(a.indexOf(m)) 
 
 
 
