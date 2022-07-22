@@ -1,7 +1,7 @@
 var a=2,b=3,c;
 
 // c=a;
-// a=b;
+// a=b; // temporary variable concept
 // b=c;
 
 
@@ -17,6 +17,15 @@ var a=2,b=3,c;
 // a = b - a;
 
 // b = b - a;
+
+
+
+// a = a * b;
+
+// b =  a / b;
+
+// a = a / b;
+
 
 // console.log(a,b)
 
