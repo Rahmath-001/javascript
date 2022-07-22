@@ -135,6 +135,6 @@
 // console.log('100' * '2')
 
 
-console.log('100' + null)
-console.log(100 + null)
-console.log(8 * null)
+// console.log('100' + null)
+// console.log(100 + null)
+// console.log(8 * null)

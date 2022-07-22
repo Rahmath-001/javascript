@@ -1,8 +1,8 @@
 // variables
 
-var a;//declearation of variable
-a=4;//initialization/definition of variable
-a=5; //redefining the variables 
+// var a;//declearation of variable
+// a=4;//initialization/definition of variable
+// a=5; //redefining the variables 
 
 //rules for a variable names
 // valid variables

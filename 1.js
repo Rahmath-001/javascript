@@ -1,2 +1,2 @@
-console.log(123)
-console.log(" Hi Buddy ")
+// console.log(123)
+// console.log(" Hi Buddy ")

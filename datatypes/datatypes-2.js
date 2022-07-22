@@ -36,5 +36,3 @@
 // a<18 ? a<12 ? console.log('kid') : console.log('teen') : console.log('adult')
 
 
-
-

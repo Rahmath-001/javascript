@@ -3,9 +3,11 @@
 // var a,b;
 // a,b=2,4
 // console.log(b,a)
-var a
-a=a+4;
-console.log(typeof a,a)
+
+
+// var a
+// a=a+4;
+// console.log(typeof a,a)
 
 
 

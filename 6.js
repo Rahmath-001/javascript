@@ -51,10 +51,10 @@
 // console.log(c<b<c) //false
 // console.log(c<b<a) //true
 
-var a=5,b=-3,c=-6
-console.log(c<b<c) //false
-console.log(c<b<a) //true
-console.log(c>b<a) //true
-console.log(a>b<c) //false
-console.log(b<a<c) //false
-console.log(c<c<c) //false
+// var a=5,b=-3,c=-6
+// console.log(c<b<c) //false
+// console.log(c<b<a) //true
+// console.log(c>b<a) //true
+// console.log(a>b<c) //false
+// console.log(b<a<c) //false
+// console.log(c<c<c) //false

@@ -219,58 +219,58 @@
 // 1  1  1
 
 
-var a=33,b=27;
-//  33 = 
-//  27 =
-console.log(a|b)
+// var a=33,b=27;
+// //  33 = 
+// //  27 =
+// console.log(a|b)
 
 
-var a=53,b=26;
-//  53 = 
-//  26 =
-console.log(a|b)
+// var a=53,b=26;
+// //  53 = 
+// //  26 =
+// console.log(a|b)
 
-var a=73,b=45;
-//  33 = 
-//  27 =
-console.log(a|b)
-
-
-// Bitwise XOR - ^
-// a  b  r
-// 0  0  0
-// 0  1  0
-// 1  0  0
-// 1  1  1
-
-var a=37,b=2;
-//  33 = 
-//  27 =
-
-// left shift (<<)
-console.log(a<<b)
+// var a=73,b=45;
+// //  33 = 
+// //  27 =
+// console.log(a|b)
 
 
-var a=17,b=4;
+// // Bitwise XOR - ^
+// // a  b  r
+// // 0  0  0
+// // 0  1  0
+// // 1  0  0
+// // 1  1  1
+
+// var a=37,b=2;
+// //  33 = 
+// //  27 =
+
+// // left shift (<<)
+// console.log(a<<b)
 
 
-// Right Shift 
-
-var a=117, b=3
-console.log(a>>b) 
+// var a=17,b=4;
 
 
+// // Right Shift 
 
+// var a=117, b=3
+// console.log(a>>b) 
 
 
 
 
 
 
-// Bitwise NOT - ~
-// ~N= -(N+1)
 
-console.log(~7)
+
+
+// // Bitwise NOT - ~
+// // ~N= -(N+1)
+
+// console.log(~7)
 
 
 
