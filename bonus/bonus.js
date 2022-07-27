@@ -23,12 +23,14 @@
 // Result must be Final bill prize.
 
 
-var a=1000
+var a=100,b=30,total;
 
 
-a=((a-100)/a)*100;
-console.log(a)
-
+total= (a*b);
+discount = (10*total)/100
+var totalprice=(total - discount)
+console.log(`\n item price = ${a}\n items =  ${b}\n discount = ${discount}`)
+console.log(` totalprice = ${totalprice}\n`)
 
 // if (a=100){
 //     console.log(a)

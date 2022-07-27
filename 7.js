@@ -268,7 +268,7 @@
 
 
 // // Bitwise NOT - ~
-// // ~N= -(N+1)
+// // ~N= -(N+1)]
 
 // console.log(~7)
 
