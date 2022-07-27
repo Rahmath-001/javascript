@@ -86,9 +86,38 @@
 
 
 
+
+
+
+
+
+
 // CONFIRM WHETHER GIVEN NUMBER IS A 3 DIGIT NUMBER ?
 
+// var a=9996;
+// if ((a<1000) && (a>99)){
+//     console.log(`the number is 3 digit`)
+// }
+// else{
+//     console.log('its not a 3 digit number')
+// }
+
+
+
+
+
+
+
+
 // CONFIRM WHETHER GIVEN NUMBER IS AN 'N' DIGIT NUMBER ?
+
+var a=5000;
+
+
+console.log(a.length)
+
+
+
 
 
 

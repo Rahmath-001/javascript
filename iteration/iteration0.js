@@ -121,7 +121,7 @@
 
 
 
-// i = 1;
+//  i = 1;
 
 
 // while (i<=200){
@@ -138,6 +138,7 @@
 //    }
 //   i++
 // }
+
 // while (i<=20){
 // console.log(` 2 x ${i} = ${i*2}`)
 // i++;
@@ -151,7 +152,7 @@
 // program to print multiple tables.
 
 
-i=3
+i=21
 
 while (i<=10){
 
@@ -174,7 +175,4 @@ while (i<=10){
    else{
       console.log("tables till 4")
    }
-
-
-
 }   

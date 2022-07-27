@@ -23,23 +23,45 @@
 // Result must be Final bill prize.
 
 
-var a=100,b=30,total;
 
 
-total= (a*b);
-discount = (10*total)/100
-var totalprice=(total - discount)
-console.log(`\n item price = ${a}\n items =  ${b}\n discount = ${discount}`)
-console.log(` totalprice = ${totalprice}\n`)
+// var a=100,b=10,total;
+// var total= (a*b);
 
-// if (a=100){
-//     console.log(a)
+// if (total>1000){
+// var discount = total*10/100;
+// var totalprice=(total - discount)
+// console.log(`\n item price = ${a}\n items =  ${b}\n discount = ${discount}`)
+// console.log(` totalprice = ${totalprice}\n`)
 // }
-// else if (a>=1000){
-//     console.log(a)
+// else {
+//     console.log(`no disscount,  total ${total}`)
+// }
+
+
+
+
+
+
+
+
+
+
+// 3.check if its a triangle first and then Check whether a triangle is a scalene/isosceles/equilateral triangle?
+// i) if directly lengths are given,
+// ii) Take coordinates as input.
+
+
+// var a=10, b=10 , c=90;
+
+// if (a == b && b == c){
+// console.log("Equilateral Triangle");        //Since all the sides of the given triangle are equal.
+//   }
+// else if (a == b || b == c || c == a){
+//   console.log("Isosceles Triangle");        //Since two sides are equal its a Isosceles Triangle
 // }
 // else{
-//     console.log(a)
+//   console.log("Scalene Triangle");      //Since all the sides of the given triangle are unequal, the triangle is scalene.
 // }
 
 
@@ -49,4 +71,55 @@ console.log(` totalprice = ${totalprice}\n`)
 
 
 
+// 4.Build Mini calculator having functionalities - *, /, +, - , %, squareroot, exponentiation, floor, ceil
 
+var a= 4, b= 5, c, operator= "hi";
+
+if (operator=="+"){
+    c=a+b;
+    console.log(c)
+}
+else if (operator=="-"){
+    c=a-b;
+    console.log(c)
+}
+else if (operator=="*"){
+    c=a*b;
+    console.log(c)
+}
+else if (operator=="/"){
+    c=a/b;
+    console.log(c)
+}
+else if (operator=="%"){
+    c=a%b;
+    console.log(c)
+}
+else if (operator=="squareroot"){
+    console.log(Math.sqrt(a+b))
+}
+else if (operator=="exponential"){
+    console.log((a)**b)
+}
+else if (operator=="floor"){
+    console.log(Math.floor(a),Math.floor(b))
+}
+else if (operator=="ceil"){
+    console.log(Math.ceil(a),Math.ceil(b))
+}
+else{
+    console.log('invalid operator/choise')
+}
+
+
+
+
+
+
+
+
+
+
+
+// 5.roots of quadratic equation, nature of roots 
+var a=4,b=8,c=6;
