@@ -111,10 +111,10 @@
 
 // CONFIRM WHETHER GIVEN NUMBER IS AN 'N' DIGIT NUMBER ?
 
-var a=5000;
+var a={n:5000}
 
-
-console.log(a.length)
+b=Object.values(a)
+console.log(b.length)
 
 
 
@@ -124,5 +124,9 @@ console.log(a.length)
 // STUDENT > 75%
 // IF HE HAS MORE THAN 25, ALLOW IN EXAM
 // IF HE DOESNT HAS ASK FOR PERMISSION, IF YES ALLOW HIM
+
+
+
+
 
 // FIND WETHER THE GIVEN NUMBER IS PRIME OR NOT.

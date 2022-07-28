@@ -152,27 +152,40 @@
 // program to print multiple tables.
 
 
-i=21
+// i=21
 
-while (i<=10){
+// while (i<=10){
 
-   if ((i%1)==0){
-      console.log(` 1 x ${i} = ${i*1}`)
-      i++;
+//    if ((i%1)==0){
+//       console.log(` 1 x ${i} = ${i*1}`)
+//       i++;
+//    }
+//    else if ((i%2)==0){
+//       console.log(` 2 x ${i} = ${i*2}`)
+//    i++;
+//    }
+//    else if ((i%3)==0){
+//    console.log(` 2 x ${i} = ${i*3}`)              //use najeeb bhai method
+//    i++;
+//    }
+//    else if ((i%4)==0){
+//       console.log(` 2 x ${i} = ${i*4}`)
+//       i++;
+//       }
+//    else{
+//       console.log("tables till 4")
+//    }
+// }   
+
+
+i=2
+
+while(i<=5){
+   console.log(`-------------------  ${i} table --------------------------`)
+   j=1;
+   while(j<=10){
+      console.log(`${i} x ${j} = ${i*j}`)
+      j++;
    }
-   else if ((i%2)==0){
-      console.log(` 2 x ${i} = ${i*2}`)
-   i++;
-   }
-   else if ((i%3)==0){
-   console.log(` 2 x ${i} = ${i*3}`)
-   i++;
-   }
-   else if ((i%4)==0){
-      console.log(` 2 x ${i} = ${i*4}`)
-      i++;
-      }
-   else{
-      console.log("tables till 4")
-   }
-}   
+i++;
+}

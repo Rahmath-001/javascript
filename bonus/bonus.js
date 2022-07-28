@@ -73,43 +73,43 @@
 
 // 4.Build Mini calculator having functionalities - *, /, +, - , %, squareroot, exponentiation, floor, ceil
 
-var a= 4, b= 5, c, operator= "hi";
+// var a= 4, b= 5, c, operator= "hi";
 
-if (operator=="+"){
-    c=a+b;
-    console.log(c)
-}
-else if (operator=="-"){
-    c=a-b;
-    console.log(c)
-}
-else if (operator=="*"){
-    c=a*b;
-    console.log(c)
-}
-else if (operator=="/"){
-    c=a/b;
-    console.log(c)
-}
-else if (operator=="%"){
-    c=a%b;
-    console.log(c)
-}
-else if (operator=="squareroot"){
-    console.log(Math.sqrt(a+b))
-}
-else if (operator=="exponential"){
-    console.log((a)**b)
-}
-else if (operator=="floor"){
-    console.log(Math.floor(a),Math.floor(b))
-}
-else if (operator=="ceil"){
-    console.log(Math.ceil(a),Math.ceil(b))
-}
-else{
-    console.log('invalid operator/choise')
-}
+// if (operator=="+"){
+//     c=a+b;
+//     console.log(c)
+// }
+// else if (operator=="-"){
+//     c=a-b;
+//     console.log(c)
+// }
+// else if (operator=="*"){
+//     c=a*b;
+//     console.log(c)
+// }
+// else if (operator=="/"){
+//     c=a/b;
+//     console.log(c)
+// }
+// else if (operator=="%"){
+//     c=a%b;
+//     console.log(c)
+// }
+// else if (operator=="squareroot"){
+//     console.log(Math.sqrt(a+b))
+// }
+// else if (operator=="exponential"){
+//     console.log((a)**b)
+// }
+// else if (operator=="floor"){
+//     console.log(Math.floor(a),Math.floor(b))
+// }
+// else if (operator=="ceil"){
+//     console.log(Math.ceil(a),Math.ceil(b))
+// }
+// else{
+//     console.log('invalid operator/choise')
+// }
 
 
 
@@ -122,4 +122,31 @@ else{
 
 
 // 5.roots of quadratic equation, nature of roots 
-var a=4,b=8,c=6;
+// var a=1,b=-3,c=10;
+
+// check=(b*b)-4*a*c 
+
+// root1 = (-b-(Math.sqrt(check))/2*a)
+// root2 = (-b+(Math.sqrt(check)))/2*a
+
+
+
+// if (check>0){
+//     console.log(`roots are real and unequal `)
+//     console.log(`root 1 = ${root1}  ,    root 2 = ${root2}  `)
+// }
+// else if (check==0){
+//     console.log(`roots are real and equal `)
+//     root1 = root2 = -b / (2*a);
+//     console.log(`root 1 = ${root1}  ,    root 2 = ${root2}  `)
+// }
+// else if (check!==0){
+//     console.log(`roots are imaginary `)
+//     var img; 
+//     img = Math.sqrt((-check)/2*a)
+//     console.log(`${img} `)
+// }
+
+// else{
+//     console.log(`invalid inputs`)
+// }
