@@ -3,7 +3,7 @@
 
 // var a=4,b=14,c='hello'
 
-// if (+a==+b || +b==+c || +c==+a){
+// if (((+a)==(+b)) || ((+b)==(+c)) || ((+c)==(+a))){
     
 //     if ((a==b) && (b==c) && (c==a)){
 //         console.log('all are equal')
@@ -129,20 +129,24 @@
 // IF HE DOESNT HAS ASK FOR PERMISSION, IF YES ALLOW HIM
 
 
-var check = 1;
-s=34
-if (s>=75) {
-    // check==1;
-    console.log("enter the exam hall")
-}
-else if (s<75){
-    // check==0;
-    console.log('allowed in exam')
-}
-else{
-    // check==0;
-    console.log('not allowed in exam')
-}
+// var check = 1;
+// s=34
+// if (s>=75) {
+//     // check==1;
+//     console.log("enter the exam hall")
+// }
+// else if (s<75){
+//     // check==0;
+//     console.log('allowed in exam')
+// }
+// else{
+//     // check==0;
+//     console.log('not allowed in exam')
+// }
+
+
+
+
 
 
 
