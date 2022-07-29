@@ -132,20 +132,20 @@
 
 
 
-tc=70, ca=13;
-p=(ca/tc)*100;
+// tc=70, ca=13;
+// p=(ca/tc)*100;
 
-check=0;
+// check=1;
 
-if(p>75){
-    console.log('allowed in exam')
-}
-else if( (p<75) && (check==0)){
-    console.log('not allowed in exam')
-}
-else{
-    console.log('allowed in exam')
-}
+// if(p>75){
+//     console.log('allowed in exam')
+// }
+// else if( (p<75) && (check==0)){
+//     console.log('not allowed in exam')
+// }
+// else{
+//     console.log('allowed in exam')
+// }
 
 
 
