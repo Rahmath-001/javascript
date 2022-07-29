@@ -129,24 +129,23 @@
 // IF HE DOESNT HAS ASK FOR PERMISSION, IF YES ALLOW HIM
 
 
-// var check = 1;
-// s=34
-// if (s>=75) {
-//     // check==1;
-//     console.log("enter the exam hall")
-// }
-// else if (s<75){
-//     // check==0;
-//     console.log('allowed in exam')
-// }
-// else{
-//     // check==0;
-//     console.log('not allowed in exam')
-// }
 
 
 
+tc=70, ca=13;
+p=(ca/tc)*100;
 
+check=0;
+
+if(p>75){
+    console.log('allowed in exam')
+}
+else if( (p<75) && (check==0)){
+    console.log('not allowed in exam')
+}
+else{
+    console.log('allowed in exam')
+}
 
 
 
