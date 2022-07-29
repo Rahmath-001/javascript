@@ -1,11 +1,34 @@
-// 1. Accept only numbers, Make a number always positive though given negative? With & without builtin function?
+// 1. ACCEPT ONLY NUMBERS, MAKE A NUMBER ALWAYS POSITIVE THOUGH GIVEN NEGATIVE ? WITH & WITHOUT BUILTIN FUNCTION?
 
-// var a="3";
+
+
+// WITH BUILTIN FUNCTION
+
+// var a="-3vjh";
 
 // if (+a<0){
 //     console.log(Math.abs(a))
 // }
 // else if(+a>0) {
+//     console.log(a)
+// }
+// else {
+//     console.log('input is a string')
+// }
+
+
+
+
+
+
+// WITHOUT BUILTIN FUNCTION
+
+// var a="-3";
+
+// if ((a)<0){
+//     console.log(-a)
+// }
+// else if((a)>0) {
 //     console.log(a)
 // }
 // else {

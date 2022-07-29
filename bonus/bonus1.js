@@ -1,5 +1,4 @@
 
-
 //  program to find greatest of three numbers.
 
 // var a=4,b=14,c='hello'
@@ -54,9 +53,36 @@
 
 
 
+// -----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+// PROGRAM TO PRINT MULTIPLE TABLES
+
+// a=2 //start table
+// b=5 //end table
+
+// for(i=a;i<=b;i++){
+//     console.log(`-------------------  ${i} table --------------------------`)
+//     for(j=0;j<=10;j++){
+//         console.log(`${i} x ${j} = ${i*j}`)
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
 // ---------------------------------------------------------------------------------------------------------------------------------------------------
-
-
 
 
 
@@ -103,18 +129,24 @@
 // IF HE DOESNT HAS ASK FOR PERMISSION, IF YES ALLOW HIM
 
 
+var check = 1;
+s=34
+if (s>=75) {
+    // check==1;
+    console.log("enter the exam hall")
+}
+else if (s<75){
+    // check==0;
+    console.log('allowed in exam')
+}
+else{
+    // check==0;
+    console.log('not allowed in exam')
+}
 
 
-// a=75;
-// if (a>=75) {
-//     console.log("enter the exam hall")
-// }
-// else if (a<75){
-//     console.log('ask permission')
-// }
-// else{
-//     console.log('not allowed in exam')
-// }
+
+
 
 
 
