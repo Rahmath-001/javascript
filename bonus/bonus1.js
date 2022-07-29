@@ -6,16 +6,16 @@
 
 // if (+a==+b || +b==+c || +c==+a){
     
-//     if (a==b && b==c && c==a){
+//     if ((a==b) && (b==c) && (c==a)){
 //         console.log('all are equal')
 //     }
-//     else if (a>b && a>c){
+//     else if ((a>b) && (a>c)){
 //         console.log(`${a} a`)
 //     }
-//     else if (a<b && b>c){                  
+//     else if ((a<b) && (b>c)){                  
 //         console.log(`${b} b`)
 //     }
-//     else if (c>a && c>b){
+//     else if ((c>a) && (c>b)){
 //         console.log(`${c} c`)
 //     }
 //     else if (a==b){
@@ -33,13 +33,13 @@
 // } 
 
 
-// if (a>b && a>c){
+// if ((a>b) && (a>c)){
 //     console.log(`${a} a`)
 // }
-// else if (a<b && b>c){                  
+// else if ((a<b) && (b>c)){                  
 //     console.log(`${b} b`)
 // }
-// else if (c>a && c>b){
+// else if ((c>a) && (c>b)){
 //     console.log(`${c} c`)
 // }
 
@@ -101,6 +101,8 @@
 // STUDENT > 75%
 // IF HE HAS MORE THAN 75, ALLOW IN EXAM
 // IF HE DOESNT HAS ASK FOR PERMISSION, IF YES ALLOW HIM
+
+
 
 
 // a=75;
