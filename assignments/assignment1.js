@@ -74,7 +74,7 @@
 
 // FIND WETHER THE GIVEN NUMBER IS PRIME OR NOT.
 
-// var n=99;
+// var n=125;
 // let check = 0;
 
 // if (n == 1){
@@ -84,14 +84,13 @@
 // for (i=2;i<n;i++){
 
 //     if ((n%i) == 0 ){
-//         console.log("its not a prime number")
 //         console.log(n%i,i)
-//         check=1;
-//     } 
-
+//         console.log("its not a prime number")                         // for range apply a loop outside of this code.
+//         check=1;                                    
+//     }                         
 // }
 //  if(check == 0) {
-//     console.log('its a prime number')
+//     console.log(` ${n} is a prime number`)
 // }
 // }
 
