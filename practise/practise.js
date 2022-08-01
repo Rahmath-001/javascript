@@ -4,20 +4,25 @@
 //  *******
 // *********
 
-// s=''
+s=''
 
-// for (i=0;i<=5;i++){
-//     for(j=i;j<=5;j++){
-//         s=s+'* '
-//         // console.log(s)
-//     }
-//     for(let k=0;k>=i;k--){
-//         s=s+' '
-//         // console.log(s)
-//     }
-//     console.log(s)
-//     s=''
-// }
+for (i=0;i<=5;i++){
+    for(j=i;j<=5;j++){
+        s=s+' '
+        // console.log(s)
+    }
+    for(let k=0;k<=i;k++){
+        s=s+'* '
+        // console.log(s)
+    }
+    for(j=i;j<=5;j++){
+        s=s+' '
+        // console.log(s)
+    }
+
+    console.log(s)
+    s=''
+}
 
 
 
@@ -69,9 +74,17 @@
 
 // ASCII number to character
 
-a = 67
-console.log(String.fromCharCode(67))
+// a = 67
+// console.log(String.fromCharCode(67))
 
 // Charaacter to ASCII
 
-console.log('C'.charCodeAt())
+// console.log('C'.charCodeAt())
+
+
+
+
+
+
+// ------------------------------------------------------------------------------------------------------------------------------------
+
