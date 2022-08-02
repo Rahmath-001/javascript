@@ -114,7 +114,7 @@
 
 
 // a = {1:'a', 2:'b', 3:'c', 2:'d', 1:'e', 3:'f'}
-a = {'1':1, b:2, b:3, '3':4 }
+// a = {'1':1, b:2, b:3, '3':4 }
 // console.log(a)
 // console.log(Object.keys(a))
 // console.log(Object.values(a))
@@ -136,6 +136,7 @@ a = {'1':1, b:2, b:3, '3':4 }
 
 
 //  PROGRAM TO FIND THE MAX NUMBER IN THE GIVEN ARRAY
+
 // a=[1,3,25,3]
 // function max(a){
 
@@ -156,19 +157,38 @@ a = {'1':1, b:2, b:3, '3':4 }
 
 
 
-a=[2,42,1,3,65]
-// console.log(a.sort())
+// a=[2,42,1,3,65]
+// // console.log(a.sort())
 
-function max(a){
-    s = a[0]
-    for(i=0;i<=(a.length-1);i++){
-        // console.log(a[i]>a)
-        if((a[i]) > s){
-         s = a[i]
-        //  console.log(a)
-        }
-    }
-    return s
-}
+// function max(a){
+//     s = a[0]
+//     for(i=0;i<=(a.length-1);i++){
+//         // console.log(a[i]>a)
+//         if((a[i]) > s){
+//          s = a[i]
+//         //  console.log(a)
+//         }
+//     }
+//     return s
+// }
 
-console.log(max(a))
+// console.log(max(a))
+
+
+
+// ---------------------------------------------------------------------------------------------------------------------------
+
+
+ //  PROGRAM TO FIND THE MIN NUMBER IN THE GIVEN ARRAY
+
+// a = [23, 23,67,25]
+// function min(a){
+// s = a[0]
+// for(i=0;i<=(a.length)-1;i++){
+//     if ((a[i]) < s){
+//         s = a[i]
+//     }
+// }
+// return s;
+// }
+// console.log(min(a))
