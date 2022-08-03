@@ -442,10 +442,28 @@
 // ABCDE
 
 
+// s='';
+// count=1;
+// for(i=0;i<=5;i++){
+//     for(let j=0;j<=i;j++){
+//         s=s+count+' '; 
+//         count++;
+//     }
+//     console.log(s)
+//     s=''
+// }
 
-
-
-
+s=''
+a=['a','b','c','d','e']
+for(i=0;i<=4;i++){
+    // s=''
+    for(let j=0;j<=i;j++){
+        s=s+a[i]
+        // s=''
+    }
+    console.log(s)
+    s=''
+}
 
 
 
@@ -462,14 +480,14 @@
 
 
 
-s=''
-for(i=1;i<=5;i++){
-    for(let j=i;j>=1;j--){
-    s=s+'A';
-    }
-    console.log(s)
-    s=''
-}
+// s=''
+// for(i=1;i<=5;i++){
+//     for(let j=i;j>=1;j--){
+//     s=s+'A';
+//     }
+//     console.log(s)
+//     s=''
+// }
 
 
 
