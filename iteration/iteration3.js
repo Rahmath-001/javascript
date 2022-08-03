@@ -173,22 +173,20 @@
 // }
 
 
-s=''
+// s=''
 
-for(i=1;i<=5;i++){
-    for(j=i;j<=5;j++){
-        s=s+' '
-    }
-    for(let j=1;j<=i;j++)
-    {
-        s=s+ '*'
+// for(i=1;i<=5;i++){
+//     for(j=i;j<=5;j++){
+//         s=s+' '
+//     }
+//     for(let j=1;j<=i;j++)
+//     {
+//         s=s+ '*'
 
-    }  
-   console.log(s)
-   s='';
-} 
-
-
+//     }  
+//    console.log(s)
+//    s='';
+// } 
 
 
 
