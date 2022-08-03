@@ -115,12 +115,12 @@
 // * *
 // *
 
-for(row=5;row>=1;row--){
-    console.log(row)
-    for(column=1;column<=5;column++){
-        console.log(column)
-    }
-}
+// for(row=5;row>=1;row--){
+//     console.log(row)
+//     for(column=1;column<=5;column++){
+//         console.log(column)
+//     }
+// }
 
 
 
