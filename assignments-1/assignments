@@ -85,10 +85,17 @@
 
 // PROGRAM TO TEST IF A GIVEN LETTER IS A VOWEL OR NOT
 
-char='r';
-if (char == ('a' || 'e' || 'i' || 'o' || 'u')){
-    console.log(`${char} is a vowel`)
-}
-else{
-    console.log(`${char} is a consonant`)
-}
+// char='r';
+// if (char == ('a' || 'e' || 'i' || 'o' || 'u')){
+//     console.log(`${char} is a vowel`)
+// }
+// else{
+//     console.log(`${char} is a consonant`)
+// }
+
+
+
+
+
+//-------------------------------------------------------------------------------------------------------------------------------
+

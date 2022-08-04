@@ -318,15 +318,15 @@
 
 
 
-function mul(s,e){
-    if(e<=0){return }
-    mul(s,e-1)
-    // s++;
-    console.log(`${s} * ${e} = ${s*e}`)
-    // s++;
-}
+// function mul(s,e){
+//     if(e<=0){return }
+//     mul(s,e-1)
+//     // s++;
+//     console.log(`${s} * ${e} = ${s*e}`)
+//     // s++;
+// }
 
-console.log(mul(2,10))
+// console.log(mul(2,10))
 
 
 
