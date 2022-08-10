@@ -99,18 +99,49 @@
 // }
 
 
-const n = [32, -33, 16, -40];
+// const n = [32, -33, 16, -40];
 
 //  n.filter(e=>removepositive(e));
 
-function removepositive(n) {
-    for (i in n){
-    if (n[i]>0){
-        
-    }
+// function removepositive(n) {
+//     for (i in n){
 
-    }
-}
+//     if (n[i]>0){
+        
+//     }
+
+//     }
+// }
+
+
+
+
+
+
+
+
+// let n = [9, -4, 32, -1, 17, -33, 16, -40]
+// function remove(){
+//     console.log(n)
+//     n.sort(function(a,b){return a - b })
+//     // console.log(arr)
+//     for(i=n.length-1;i>=0;i--){
+//     if(n[i]<0){
+//         n.pop()
+//     }
+//     }
+//     console.log(n)
+// }
+// remove()
+
+
+
+
+
+
+
+
+
 
 
 
@@ -133,7 +164,18 @@ function removepositive(n) {
 
 
 
-
+// var a = [3,7,16,9,7,3,12,16];
+//     function Duplicate(a) {
+//         console.log(a)
+//         var e = [];
+//         for(i=0; i < a.length; i++){
+//             if(e.indexOf(a[i]) === -1) {
+//                 e.push(a[i]);
+//             }
+//         }
+//         return e;
+//     }
+//     console.log(Duplicate(a));
 
 
 
