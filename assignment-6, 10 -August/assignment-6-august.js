@@ -98,20 +98,59 @@
 //     }
 // }
 
-
 // const n = [32, -33, 16, -40];
+
+// for (i=0;i<=n.length-1;i++){
+
+//     if(n[i]>=0){
+//         n.splice(0,1)
+//     }
+//     console.log(n)
+// }
 
 //  n.filter(e=>removepositive(e));
 
 // function removepositive(n) {
-//     for (i in n){
-
-//     if (n[i]>0){
-        
+//     for (i of n){
+// console.log(i)
+//     if (i>0){
+//         c=a;
+//         a=b;
+//         b=c;
 //     }
+
 
 //     }
 // }
+
+// console.log(removepositive(n))
+
+
+// i=0;
+
+// // for (i=0;i<=n.legth-1;i++){
+//     // if (n[i]>0){
+//         n[i+2]=n[i];
+//      n[i]=n[i+1];
+//      n[i+1]=n[i+2];
+     
+//     // }
+// // }
+// console.log(n)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

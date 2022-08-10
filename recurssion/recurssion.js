@@ -192,7 +192,7 @@
 
 
 
-// var n=5
+// var n=7
 // let fibo = n => {
 //     if((n<2) && (n>=0)){
 //         return n;
