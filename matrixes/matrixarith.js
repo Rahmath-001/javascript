@@ -14,7 +14,6 @@ function matrixsum(){
         for(let i=0;i<c.length;i++){
             c[i]=new Array(matrixa[0].length)
         }
-
         for(let i=0;i<c.length;i++){
            for (let j=0;j<c[0].length;j++){
             sum[i][j] = matrixa[i][j] + matrixb[i][j]
@@ -23,13 +22,10 @@ function matrixsum(){
         }
         console.log(`The sum of two matix is : `)
         displaymatrix(c)
-
     } 
-        
-    else{
+     else{
         console.log(`Matrix addition not possible`)
         }
-
 }
 
 matrixsum()

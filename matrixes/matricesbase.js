@@ -26,8 +26,6 @@ function matrixinput(name){
 
 
 
-
-
 //   FUNCTION TO PRINT MATRIX
 
 // let mat = matrixinput()
