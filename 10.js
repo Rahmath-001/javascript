@@ -74,14 +74,29 @@
 
 //  WAP to add two matrix
 
-a=[123]
-b=[123]
+// a=[123]
+// b=[123]
 
 // for(row=0;row<=a.length;row++){
-    for(column=0;column<=a.length-1;column++){
-        console.log(a)
-    }
+    // for(column=0;column<=a.length-1;column++){
+        // console.log(a)
+    // }
 // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -43,30 +43,30 @@
 // 2. Armstrong/Narcisstic number or not?
 
 
-a = 143
-temp = a
+// a = 143
+// temp = a
 
-arm=(''+a).length
-console.log(arm)
-sum=0
+// arm=(''+a).length
+// console.log(arm)
+// sum=0
 
-for (i=0;i<=arm-1;i++){
-    if(a>0){
-    sum += (a%10)**arm
-    console.log(sum, a)
-    a= (a/10)-(a/10)%1
-    console.log(a)
+// for (i=0;i<=arm-1;i++){
+//     if(a>0){
+//     sum += (a%10)**arm
+//     console.log(sum, a)
+//     a= (a/10)-(a/10)%1
+//     console.log(a)
 
-    }
-}
-console.log(sum)
-console.log(a)
-if (sum===temp){
-    console.log('a armstrong')
-}
-else{
-    console.log('not armstrong')
-}
+//     }
+// }
+// console.log(sum)
+// console.log(a)
+// if (sum===temp){
+//     console.log('a armstrong')
+// }
+// else{
+//     console.log('not armstrong')
+// }
 
 
 
