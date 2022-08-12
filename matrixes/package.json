@@ -8,8 +8,9 @@
   },
   "author": "",
   "license": "ISC",
-  "type":"module",
+  "type": "module",
   "dependencies": {
+    "colors-cli": "^1.0.28",
     "readline-sync": "^1.4.10"
   }
 }
