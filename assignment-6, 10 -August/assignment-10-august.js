@@ -43,7 +43,7 @@
 // 2. Armstrong/Narcisstic number or not?
 
 
-// a = 143
+// a = 153
 // temp = a
 
 // arm=(''+a).length
@@ -56,7 +56,6 @@
 //     console.log(sum, a)
 //     a= (a/10)-(a/10)%1
 //     console.log(a)
-
 //     }
 // }
 // console.log(sum)
@@ -73,9 +72,56 @@
 
 
 
+//    USING RECURSSION 
+
+
+// sum = 0
+// n = 15
+// const   a = String(n).split('');
+//     const temp = a.length;
+// function check(n) {
+//     if(n>0){
+//         sum += (n%10)**temp
+//         }
+//         else
+//    return sum;
+//     return check( Math.floor(n/10))
+// }
+
+
+// let c = check(n)
+// console.log(c)
+// if(c==n){
+//     console.log("armstrong")
+// }
+// else{
+//     console.log("not a armstrong")
+// }
 
 
 
+
+
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+// 3. Sum of the digits of given number?
+
+
+// function sum_of_digit(n)
+// {
+//     if (n == 0){
+//     return 0;
+//     }
+//     return (n % 10 + sum_of_digit(parseInt(n / 10)));
+// }
+
+// var num = 231;
+//  console.log(sum_of_digit(num))
 
 
 
