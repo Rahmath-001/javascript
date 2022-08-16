@@ -1,0 +1,17 @@
+{
+  "name": "base64",
+  "version": "1.0.0",
+  "main": "encoder.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
+}
