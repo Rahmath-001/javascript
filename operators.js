@@ -141,3 +141,46 @@
 // }
 
 // console.log(person.fullname())
+
+
+
+
+
+
+
+
+
+// ---------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+//   SPERAD operator 
+
+const arr=["apple", "pineapple", "appricot"];
+const obj={...arr};
+// console.log(obj);
+
+
+
+const array=[1,2,3,4,5,...arr,6,5,8];
+const array2={...arr,...array};
+// console.log(array2);
+
+
+
+let object={
+    "name":"rahmathullah",
+    "age": 20,
+    'gender': "male"
+}
+
+let obj2={
+    "education":"CSE",
+    "expertise":"Robotics software engineer"
+}
+
+let obj3={...object,...obj2}
+// console.log(obj3)
+console.log({...obj2,...array})
