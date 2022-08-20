@@ -81,4 +81,7 @@ function base64encoding(){
 }
 
 
-base64encoding()
+// base64encoding()
+
+
+// export default base64encoding();
