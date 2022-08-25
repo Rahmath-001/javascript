@@ -1,3 +1,6 @@
+import base64encoding from './encoder.js'
+
+
 //  check the input is a valid base64 & check for ==
 // get base64 decimal values. 
 // convert decimal to 6bit binary 
@@ -22,12 +25,12 @@
 
 
 
-let finalbase64string = "SEVMTE8=";
-let base64="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
-console.log(finalbase64string)
+// let base64encoding = "SEVMTE8=";
+// let base64="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+// console.log(finalbase64string)
 
  
-let dec=finalbase64string.split("")
+let dec=base64encoding.split("")
 console.log(dec)
 
 
@@ -83,4 +86,6 @@ let bintodec = binarycodejoin.map((char)=>parseInt(char,2));
 console.log(bintodec)
 
 let decode=bintodec.map((temp) => String.fromCharCode(temp))
-console.log(decode)
+// console.log(decode)
+
+export default decode;
