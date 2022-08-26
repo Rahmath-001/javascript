@@ -1,3 +1,4 @@
+// import readlineSync from "readline-sync";
 import base64encoding from './encoder.js'
 
 
@@ -86,6 +87,6 @@ let bintodec = binarycodejoin.map((char)=>parseInt(char,2));
 console.log(bintodec)
 
 let decode=bintodec.map((temp) => String.fromCharCode(temp))
-// console.log(decode)
+console.log(decode)
 
-export default decode;
+// export default decode;

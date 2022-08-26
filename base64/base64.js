@@ -1,4 +1,4 @@
-import readlineSync from 'readline-sync'
+// import readlineSync from "readline-sync";
 import base64encoding from './encoder.js'
 import decode from './decoder.js'
 
