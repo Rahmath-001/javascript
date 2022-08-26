@@ -89,4 +89,4 @@ console.log(bintodec)
 let decode=bintodec.map((temp) => String.fromCharCode(temp))
 console.log(decode)
 
-// export default decode;
+export default decode;
