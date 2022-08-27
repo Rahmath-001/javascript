@@ -11,6 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "color": "^4.2.3",
+    "colors-cli": "^1.0.28",
     "readline-sync": "^1.4.10"
   }
 }

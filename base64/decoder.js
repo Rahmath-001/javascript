@@ -30,8 +30,8 @@ import base64encoding from './encoder.js'
 // let base64="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
 // console.log(finalbase64string)
 
- 
-let dec=base64encoding.split("")
+ let deencoding=base64encoding.toString()
+let dec=deencoding.split()
 console.log(dec)
 
 

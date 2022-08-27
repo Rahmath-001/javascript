@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync'
-// import color from 'colors-cli'
+import color from 'colors-cli'
 import { matrixinput,displaymatrix} from "./matricesbase.js";
 
 
