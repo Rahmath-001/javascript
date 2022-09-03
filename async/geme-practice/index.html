@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Practise</title>
+</head>
+<body>
+
+    <form>
+        <label for="fname">NAME :</label><br>
+        <input type="text" id="name" name="fname" ><br>
+        <label for="lname">ATTEMPT :</label><br>
+        <input type="text" id="attempt" name="lname" ><br><br>
+        <button onclick="data()" >ltake data</button>
+      </form> 
+      
+</body>
+
+<script>
+
+
+let temp=[];
+let winnerarray=[];
+
+
+function data() {
+    let inputname=document.getElementById("name").value;
+let userattempts=document.getElementById("attempt").value;
+localStorage.setItem(inputname,userattempts)
+
+let getname= JSON.stringify(localStorage.getItem(inputname))
+
+
+// temp.push(gatname)
+// JSON.stringify(temp)
+// console.log(temp)
+// console.log(getname)
+
+
+}
+
+
+// console.log(name)
+// console.log(attempt)
+
+
+// localStorage.setItem("attemp",JSON.stringify(attempt));
+// localStorage.getItem("attempt");
+
+</script>
+
+</html>
