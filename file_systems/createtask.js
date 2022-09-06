@@ -27,4 +27,46 @@ fs.writeFile("tasks.json", fileData, (err)=>{
 })
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// if ("tasks.json"=="tasks.json"[2]){
+//     fs.writeFile("persistence\\announce.txt", string, function (err) {
+//         if (err) {
+//             return console.log("Error writing file: " + err);
+//         }
+//     });
+// }
+
+// else {
+//     fs.readFile("tasks.json")
+// }
+
 // console.log("Down",fileData);
