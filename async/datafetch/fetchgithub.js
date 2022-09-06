@@ -3,8 +3,8 @@ import axios from "axios";
 function fetchAPI() {
     let keys = {
         auth: {
-            username: "aliqasim54321",
-            password: "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"
+            username: "Rahmath-001",
+            password: "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"
         }
     }
     axios.get("https://api.github.com/users", keys)

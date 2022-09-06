@@ -30,7 +30,13 @@ async function getWeather() {
             cityname = readlineSync.question("City name cant be Empty please Re-enter the Name : ");
         }
 
+
+        switch (cityname){
+            case 0: 
+        }
+
         let res = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${cityname}&appid=a06f7a0d0fae7926aa6e13224d71923f`)
+
 
         // console.log(res.data);
 
