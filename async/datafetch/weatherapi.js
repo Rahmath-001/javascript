@@ -34,14 +34,14 @@ async function getWeather() {
         let res = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${cityname}&appid=a06f7a0d0fae7926aa6e13224d71923f`)
 
 
-    console.log(`\n CHOICES :  \n 0) EXIT \n 1) MAX-Temperature\n 2) MIN-Temperature\n 3) HUMIDITY\n 4) SUNSET\n 5) SUNRISE\n 6) REPEAT \n\n`)
+    console.log(`\n CHOICES :  \n 0) EXIT \n 1) MAX-Temperature\n 2) MIN-Temperature\n 3) HUMIDITY\n 4) SUNSET\n 5) SUNRISE\n `)
 
         
         let choice=readlineSync.questionInt("Enter choice to get details : ")
         switch (choice){
             case 0: 
             console.log(`\n -----------------------------------------`)
-            console.log(" THNAK YOU FOR USING WEATHER API ")
+            console.log(" THNAK YOU FOR USING WEATHER CLI ")
             console.log(` -----------------------------------------\n`)
             procress.exit();
             break;
@@ -79,6 +79,15 @@ async function getWeather() {
 
             default: 
             console.log("Invalid input ")
+        }
+
+
+        let shouldcontinue=readlineSync.question("\nDo you want to continue ? (y/n) : ")
+        if(shouldcontinue == "y"  || shouldcontinue== "Y" || shouldcontinue== "yes"  || shouldcontinue== "YES" ) {
+           getWeather();
+        }
+        else {
+           console.log("\nTHANK YOU for using our Application......\n")
         }
 
 
