@@ -13,7 +13,6 @@ async function getWeather() {
         const appid = 'ffdd323148e1c6a474a68dad2741d561';
         let res = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${cityname}&appid=${appid}`)
 
-
     console.log(`\n CHOICES :  \n 0) EXIT \n 1) MAX-Temperature\n 2) MIN-Temperature\n 3) HUMIDITY\n 4) SUNSET\n 5) SUNRISE\n `)
 
         
