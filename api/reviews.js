@@ -11,7 +11,10 @@ import readlineSync from "readline-sync";
 
         let resturantlink = await axios.get(`https://gist.githubusercontent.com/Jkudjo/8f64c6fe24f30e754fa3ce4971063826/raw/cbd57cfdddbdfc009fd9ccdadf5fb7129af71c73/restaurant-data.json`)
 
-        console.log(resturantlink.restaurants.operating_hours)
+        // console.log(resturantlink.resturant[id])
+
+        
+
 
 
 //     } catch (error) {
@@ -20,4 +23,9 @@ import readlineSync from "readline-sync";
 //     }
 // }
 
-resturantdata();
+// resturantdata();
+
+
+
+
+
